@@ -1,0 +1,126 @@
+{
+  "auth": {
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "signOut": "Sign Out",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "forgotPassword": "Forgot password?",
+    "orContinueWith": "Or continue with",
+    "noAccount": "Don't have an account?",
+    "alreadyHaveAccount": "Already have an account?",
+    "signingIn": "Signing in...",
+    "signingUp": "Signing up...",
+    "redirecting": "Redirecting...",
+    "resetPassword": "Reset Password",
+    "backToLogin": "Back to Login",
+    "checkEmail": "Check your email",
+    "resetEmailSent": "A password reset link has been sent to your email.",
+    "sending": "Sending...",
+    "sendResetLink": "Send Reset Link",
+    "updatePassword": "Update Password",
+    "newPassword": "New Password",
+    "passwordRequirements": "Password must be at least 6 characters long",
+    "updating": "Updating...",
+    "passwordUpdated": "Password Updated!",
+    "redirectingToLogin": "Redirecting to login page...",
+    "checking": "Checking session...",
+    "redirectingToReset": "Redirecting to reset password page...",
+    "requestNewLink": "Request New Link",
+    "errors": {
+      "invalidEmail": "Invalid email",
+      "passwordRequired": "Password is required",
+      "passwordMismatch": "Passwords do not match",
+      "invalidCredentials": "Invalid email or password",
+      "emailTaken": "Email is already taken",
+      "signUpFailed": "Sign up failed. Please try again.",
+      "invalidResetLink": "Invalid or expired link. Please try the reset process again.",
+      "passwordTooShort": "Password must be at least 6 characters long.",
+      "deleteAccountFailed": "Error deleting account. Please try again."
+    }
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "agenda": "Calendar",
+    "progress": "Progress",
+    "mentalClarity": "Mental Clarity",
+    "routines": "Routines",
+    "profile": "Profile"
+  },
+  "profile": {
+    "title": "Profile",
+    "accountInfo": "Account Information",
+    "email": "Email",
+    "createdAt": "Account created on",
+    "settings": "Settings",
+    "preferences": "Preferences",
+    "darkMode": "Dark mode",
+    "language": "Language",
+    "theme": "Dark mode",
+    "legal": "Legal",
+    "termsTitle": "Terms of Service",
+    "termsContent": "By using Flow Assistant, you agree to our terms of service which define your rights and responsibilities.",
+    "privacyTitle": "Privacy Policy",
+    "privacyContent": "We take the protection of your personal data seriously. Learn how we handle your information.",
+    "dangerZone": "Danger Zone",
+    "deleteAccount": "Delete Account",
+    "deleteAccountDesc": "Once you delete your account, there is no going back. Please be certain.",
+    "deleteAccountButton": "Delete my account",
+    "deleteAccountConfirm": "Are you sure you want to delete your account? This action cannot be undone.",
+    "routines": "My Routines",
+    "routinesDesc": "Manage your daily and weekly routines",
+    "stats": "Statistics",
+    "statsDesc": "View your progress and usage",
+    "deleteSuccess": "Account successfully deleted",
+    "viewTerms": "View terms",
+    "viewPrivacy": "View policy",
+    "fr": "French",
+    "en": "English"
+  },
+  "dashboard": {
+    "welcome": "Welcome to your dashboard ✨",
+    "description": "Here you'll find a quick overview of your mood, tasks, schedule, and mental clarity.",
+    "overview": "Daily Overview",
+    "stats": {
+      "title": "Quick Stats",
+      "tasks": "Tasks Today",
+      "meetings": "Meetings",
+      "focus": "Focus Time",
+      "streak": "Day Streak"
+    },
+    "upcoming": {
+      "title": "Coming Up",
+      "noEvents": "No upcoming events"
+    },
+    "mood": {
+      "title": "Today's Mood",
+      "question": "How are you feeling today?",
+      "great": "Great",
+      "good": "Good",
+      "okay": "Okay",
+      "meh": "Meh",
+      "bad": "Bad",
+      "save": "Save Mood"
+    }
+  },
+  "agenda": {
+    "eventNamePrompt": "Event name?",
+    "deleteEventConfirm": "Delete this event?",
+    "today": "Today",
+    "week": "Week",
+    "day": "Day",
+    "newEvent": "New Event",
+    "eventTitle": "Event Title",
+    "eventTitlePlaceholder": "Ex: Team Meeting",
+    "start": "Start",
+    "end": "End",
+    "errors": {
+      "titleRequired": "Title is required"
+    }
+  },
+  "common": {
+    "cancel": "Cancel",
+    "create": "Create"
+  }
+}

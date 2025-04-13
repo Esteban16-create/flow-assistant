@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html.dark {
+    color: rgb(229 231 235); /* text-gray-200 */
+    background-color: #0d1117;
+  }
+}
+
+@layer utilities {
+  .text-default {
+    @apply text-gray-800 dark:text-gray-200;
+  }
+}
+
+/* FullCalendar customization */
+.calendar-container .fc {
+  @apply font-sans;
+}
+
+.calendar-container .fc-toolbar-title {
+  @apply text-lg font-semibold text-gray-900 dark:text-white;
+}
+
+.calendar-container .fc-button {
+  @apply bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700 focus:ring-2 focus:ring-primary-500 focus:border-primary-500 !important;
+}
+
+.calendar-container .fc-button-primary:not(.fc-button-active) {
+  @apply bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 !important;
+}
+
+.calendar-container .fc-button-active {
+  @apply bg-primary-600 text-white border-primary-600 hover:bg-primary-700 hover:border-primary-700 !important;
+}
+
+.calendar-container .fc-timegrid-slot {
+  @apply dark:border-gray-700;
+}
+
+.calendar-container .fc-timegrid-slot-label {
+  @apply dark:text-gray-400;
+}
+
+.calendar-container .fc-col-header-cell {
+  @apply dark:text-gray-300;
+}
+
+.calendar-container .fc-theme-standard td,
+.calendar-container .fc-theme-standard th {
+  @apply dark:border-gray-700;
+}
+
+.calendar-container .fc-event {
+  @apply rounded-lg shadow-sm cursor-pointer transition-opacity hover:opacity-90;
+}
+
+.calendar-container .fc-timegrid-event-harness {
+  @apply transition-opacity hover:opacity-90;
+}
+
+.calendar-container .fc-highlight {
+  @apply bg-primary-100 dark:bg-primary-900/20;
+}
+
+.calendar-container .fc-timegrid-now-indicator-line {
+  @apply border-red-500;
+}
+
+.calendar-container .fc-timegrid-now-indicator-arrow {
+  @apply border-red-500;
+}
+
+/* Event resize handle styles */
+.calendar-container .fc-event .fc-event-resizer {
+  @apply cursor-ns-resize before:content-[''] before:absolute before:left-0 before:right-0 before:h-2 before:bg-primary-700/20 hover:before:bg-primary-700/40;
+}
+
+.calendar-container .fc-event .fc-event-resizer-start {
+  @apply top-0;
+}
+
+.calendar-container .fc-event .fc-event-resizer-end {
+  @apply bottom-0;
+}

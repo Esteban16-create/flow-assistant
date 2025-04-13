@@ -1,0 +1,126 @@
+{
+  "auth": {
+    "signIn": "Connexion",
+    "signUp": "Inscription",
+    "signOut": "Déconnexion",
+    "email": "Email",
+    "password": "Mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "forgotPassword": "Mot de passe oublié ?",
+    "orContinueWith": "Ou continuer avec",
+    "noAccount": "Pas encore de compte ?",
+    "alreadyHaveAccount": "Déjà un compte ?",
+    "signingIn": "Connexion en cours...",
+    "signingUp": "Inscription en cours...",
+    "redirecting": "Redirection...",
+    "resetPassword": "Réinitialiser le mot de passe",
+    "backToLogin": "Retour à la connexion",
+    "checkEmail": "Vérifiez votre email",
+    "resetEmailSent": "Un email de réinitialisation a été envoyé à votre adresse.",
+    "sending": "Envoi en cours...",
+    "sendResetLink": "Envoyer le lien de réinitialisation",
+    "updatePassword": "Mettre à jour le mot de passe",
+    "newPassword": "Nouveau mot de passe",
+    "passwordRequirements": "Le mot de passe doit contenir au moins 6 caractères",
+    "updating": "Mise à jour en cours...",
+    "passwordUpdated": "Mot de passe mis à jour !",
+    "redirectingToLogin": "Redirection vers la page de connexion...",
+    "checking": "Vérification de la session...",
+    "redirectingToReset": "Redirection vers la page de réinitialisation...",
+    "requestNewLink": "Demander un nouveau lien",
+    "errors": {
+      "invalidEmail": "Email invalide",
+      "passwordRequired": "Le mot de passe est requis",
+      "passwordMismatch": "Les mots de passe ne correspondent pas",
+      "invalidCredentials": "Email ou mot de passe invalide",
+      "emailTaken": "Cet email est déjà utilisé",
+      "signUpFailed": "L'inscription a échoué. Veuillez réessayer.",
+      "invalidResetLink": "Lien invalide ou expiré. Merci de recommencer la procédure.",
+      "passwordTooShort": "Le mot de passe doit contenir au moins 6 caractères.",
+      "deleteAccountFailed": "Erreur lors de la suppression du compte. Veuillez réessayer."
+    }
+  },
+  "nav": {
+    "dashboard": "Tableau de bord",
+    "agenda": "Agenda",
+    "progress": "Progression",
+    "mentalClarity": "Clarté Mentale",
+    "routines": "Routines",
+    "profile": "Profil"
+  },
+  "profile": {
+    "title": "Profil",
+    "accountInfo": "Informations du compte",
+    "email": "Email",
+    "createdAt": "Compte créé le",
+    "settings": "Paramètres",
+    "preferences": "Préférences",
+    "darkMode": "Mode sombre",
+    "language": "Langue",
+    "theme": "Mode sombre",
+    "legal": "Mentions légales",
+    "termsTitle": "Conditions d'utilisation",
+    "termsContent": "En utilisant Flow Assistant, vous acceptez nos conditions d'utilisation qui définissent vos droits et responsabilités.",
+    "privacyTitle": "Politique de confidentialité",
+    "privacyContent": "Nous prenons la protection de vos données personnelles au sérieux. Découvrez comment nous traitons vos informations.",
+    "dangerZone": "Zone de danger",
+    "deleteAccount": "Supprimer le compte",
+    "deleteAccountDesc": "Une fois que vous supprimez votre compte, il n'y a pas de retour en arrière. Soyez certain.",
+    "deleteAccountButton": "Supprimer mon compte",
+    "deleteAccountConfirm": "Êtes-vous sûr de vouloir supprimer votre compte ? Cette action est irréversible.",
+    "routines": "Mes routines",
+    "routinesDesc": "Gérez vos routines quotidiennes et hebdomadaires",
+    "stats": "Statistiques",
+    "statsDesc": "Visualisez vos progrès et votre utilisation",
+    "deleteSuccess": "Compte supprimé avec succès",
+    "viewTerms": "Voir les conditions",
+    "viewPrivacy": "Voir la politique",
+    "fr": "Français",
+    "en": "English"
+  },
+  "dashboard": {
+    "welcome": "Bienvenue sur ton tableau de bord ✨",
+    "description": "Ici tu retrouveras un aperçu rapide de ton humeur, tes tâches, ton planning et ton niveau de clarté mentale.",
+    "overview": "Aperçu du jour",
+    "stats": {
+      "title": "Statistiques",
+      "tasks": "Tâches du jour",
+      "meetings": "Réunions",
+      "focus": "Temps de focus",
+      "streak": "Jours consécutifs"
+    },
+    "upcoming": {
+      "title": "À venir",
+      "noEvents": "Aucun événement à venir"
+    },
+    "mood": {
+      "title": "Humeur du jour",
+      "question": "Comment te sens-tu aujourd'hui ?",
+      "great": "Super",
+      "good": "Bien",
+      "okay": "Correct",
+      "meh": "Bof",
+      "bad": "Pas bien",
+      "save": "Enregistrer"
+    }
+  },
+  "agenda": {
+    "eventNamePrompt": "Nom de l'événement ?",
+    "deleteEventConfirm": "Supprimer cet événement ?",
+    "today": "Aujourd'hui",
+    "week": "Semaine",
+    "day": "Jour",
+    "newEvent": "Nouvel événement",
+    "eventTitle": "Titre de l'événement",
+    "eventTitlePlaceholder": "Ex: Réunion d'équipe",
+    "start": "Début",
+    "end": "Fin",
+    "errors": {
+      "titleRequired": "Le titre est requis"
+    }
+  },
+  "common": {
+    "cancel": "Annuler",
+    "create": "Créer"
+  }
+}
